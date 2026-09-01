@@ -1,50 +1,99 @@
-<h1 align="center">Hi there, I'm Yerassyl 👋</h1>
-
-<h3 align="center">Applied Computer Science & AI graduate @ Sapienza Università di Roma</h3>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Yerassyl+Manakbayev;Applied+CS+%26+AI+%40+Sapienza+University+of+Rome;3D+Computer+Vision+%7C+Deep+Learning+%7C+Data+Analytics;Bachelor's+thesis+in+3D+Computer+Vision" alt="Typing SVG" />
+</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Computer+Vision+%26+3D+Geometry;Point+Cloud+Registration;Building+things+with+classical+CV+%2B+ML;Currently+writing+my+Bachelor's+thesis" alt="Typing SVG" />
+  <a href="https://github.com/MAYeras"><img src="https://img.shields.io/github/followers/MAYeras?label=Follow&style=social" alt="GitHub followers"/></a>
+  <img src="https://komarev.com/ghpvc/?username=MAYeras&label=Profile%20views&color=2F81F7&style=flat" alt="Profile views"/>
 </p>
 
 ---
 
-### 🔭 What I'm working on
+### 👋 About me
 
-- 🎓 Graduated with a **Bachelor's degree in Applied Computer Science and AI** from Sapienza Università di Roma
-- 🦴 My thesis explored **virtual bone fragment reassembly** using classical (non-ML) 3D point cloud registration techniques
-- 🧩 Diving deep into geometric algorithms, ICP variants, and 3D shape matching
-- 🌱 Always picking up new tools along the way in CS/AI
+- 🎓 B.Sc. in **Applied Computer Science and Artificial Intelligence**, Sapienza Università di Roma
+- 🦴 Completed my Bachelor's thesis on **virtual bone fragment reassembly** using classical (non-ML) 3D point cloud registration
+- 🔭 Interests: computer vision, deep learning for medical imaging, data analytics
+- 🌍 Based between Italy and Kazakhstan
+- ⚡ Always happy to talk about ICP variants, Grad-CAM, or why R makes network graphs look great
 
-### 🛠️ Tech Stack
+---
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open3D-0A66C2?style=for-the-badge&logo=data:image/png;base64,&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" />
-</p>
-
-### 📊 GitHub Stats
+### 🛠️ Tech stack
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MAYeras&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAYeras&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://skillicons.dev/icons?i=python,r,go,java,cpp,vue,docker,git,linux,latex,vscode&theme=dark" alt="Skills" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-</p>
-
-### 📫 Let's connect
-
-<p align="left">
-  <a href="mailto:manakyera@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Open3D-0A66C2?style=for-the-badge&logo=data:image/png;base64,&logoColor=white" alt="Open3D" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
 </p>
 
 ---
 
-<p align="center"><i>⭐️ Thanks for stopping by — feel free to explore my pinned repos below!</i></p>
+### 📌 Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🦴 [Bone Fragment Reassembly (Bachelor's Thesis)](#)**
+3D computer vision pipeline for reassembling fractured bone fragments using classical (non-learned) point-cloud registration — FPFH/RANSAC/FGR global registration followed by a custom lp-norm IRLS ICP refinement with collision constraints and seam weighting. Evaluated on real fragment scans with penetration-depth and seam metrics rather than surface-contact alone.
+`Python` `Open3D` `3D Vision`
+
+</td>
+<td width="50%" valign="top">
+
+**🩻 [TB Detection from Chest X-rays](#)**
+Deep learning pipeline for tuberculosis screening: a ResNet18 classifier for TB vs. Normal, a U-Net for lung segmentation, and Grad-CAM for visual explanations of predictions. Trained on the Kaggle TB Chest X-ray Dataset and the Montgomery County Chest X-ray Set.
+`Python` `PyTorch` `Deep Learning` `Medical Imaging`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🎮 [CS:GO Esports Analytics](#)**
+R-based analysis of professional CS:GO match data: pistol-round win-rate impact, team playstyle clustering (k-means), tournament dominance network analysis (centrality + community detection), and global player/team distribution mapping.
+`R` `Data Analytics` `Network Analysis`
+
+</td>
+<td width="50%" valign="top">
+
+**💬 [WASAtext](https://github.com/MAYeras/WASAtext)**
+Instant messaging application built for a Web and Software Architecture course — 1-on-1 and group chats with rich media, reactions, and forwarding. Go backend with a Vue.js frontend.
+`Go` `Vue.js` `Docker`
+
+</td>
+</tr>
+</table>
+
+> Repos marked with `#` are being cleaned up before upload — replace the links once they're pushed to GitHub.
+
+---
+
+### 📊 GitHub stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MAYeras&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAYeras&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MAYeras&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+---
+
+### 📫 Contact
+
+<p align="center">
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
+
+<p align="center"><i>Thanks for stopping by — feel free to explore my repos!</i></p>
