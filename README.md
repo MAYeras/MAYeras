@@ -72,8 +72,6 @@ Instant messaging application built for a Web and Software Architecture course �
 </tr>
 </table>
 
-> Repos marked with `#` are being cleaned up before upload — replace the links once they're pushed to GitHub.
-
 ---
 
 ### 📊 GitHub stats
