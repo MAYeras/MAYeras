@@ -79,8 +79,8 @@ Instant messaging application built for a Web and Software Architecture course â
 ### ğŸ“Š GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MAYeras&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAYeras&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=MAYeras&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=MAYeras&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 </p>
 
 <p align="center">
