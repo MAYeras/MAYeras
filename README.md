@@ -41,14 +41,14 @@
 <tr>
 <td width="50%" valign="top">
 
-**🦴 [Bone Fragment Reassembly (Bachelor's Thesis)](#)**
+**🦴 [Bone Fragment Reassembly (Bachelor's Thesis)](https://github.com/MAYeras/Bone-Refitting)**
 3D computer vision pipeline for reassembling fractured bone fragments using classical (non-learned) point-cloud registration — FPFH/RANSAC/FGR global registration followed by a custom lp-norm IRLS ICP refinement with collision constraints and seam weighting. Evaluated on real fragment scans with penetration-depth and seam metrics rather than surface-contact alone.
 `Python` `Open3D` `3D Vision`
 
 </td>
 <td width="50%" valign="top">
 
-**🩻 [TB Detection from Chest X-rays](#)**
+**🩻 [TB Detection from Chest X-rays](https://github.com/MAYeras/TBDetect)**
 Deep learning pipeline for tuberculosis screening: a ResNet18 classifier for TB vs. Normal, a U-Net for lung segmentation, and Grad-CAM for visual explanations of predictions. Trained on the Kaggle TB Chest X-ray Dataset and the Montgomery County Chest X-ray Set.
 `Python` `PyTorch` `Deep Learning` `Medical Imaging`
 
@@ -57,7 +57,7 @@ Deep learning pipeline for tuberculosis screening: a ResNet18 classifier for TB 
 <tr>
 <td width="50%" valign="top">
 
-**🎮 [CS:GO Esports Analytics](#)**
+**🎮 [CS:GO Esports Analytics](https://github.com/MAYeras/CS-GO-Esports-Analytics)**
 R-based analysis of professional CS:GO match data: pistol-round win-rate impact, team playstyle clustering (k-means), tournament dominance network analysis (centrality + community detection), and global player/team distribution mapping.
 `R` `Data Analytics` `Network Analysis`
 
@@ -67,6 +67,22 @@ R-based analysis of professional CS:GO match data: pistol-round win-rate impact,
 **💬 [WASAtext](https://github.com/MAYeras/WASAtext)**
 Instant messaging application built for a Web and Software Architecture course — 1-on-1 and group chats with rich media, reactions, and forwarding. Go backend with a Vue.js frontend.
 `Go` `Vue.js` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**📈 [Freight Rate Prediction Challenge](https://github.com/MAYeras/SpotterTest)**
+ML pipeline for forecasting posted freight rates across 48K loads: CatBoost vs. LightGBM against a quote-total baseline, chronological train/eval splits with explicit leakage accounting, and a December scenario chart. Honest notes on what the models can and cannot learn from the data.
+`Python` `LightGBM` `CatBoost` `Forecasting`
+
+</td>
+<td width="50%" valign="top">
+
+**🛂 [Passport OCR Post-Processing](https://github.com/MAYeras/InternshipTest)**
+Accept/reject decision engine for OCR-read Russian passports: visual-zone ↔ MRZ cross-validation, ICAO 7-3-1 check digits, an empirically derived name-transliteration table, and a passport-validity gate. Zero invalid passports accepted on the 3000-document train set.
+`Python` `OCR` `Data Validation`
 
 </td>
 </tr>
